@@ -1,0 +1,491 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+
+{% block content %} 
+{% include 'header2.html' %}
+
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4 text-red"></i>
+                                <h5>Master Chefs</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4 text-red"></i>
+                                <h5>Quality Food</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4 text-red"></i>
+                                <h5>Online Order</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4 text-red"></i>
+                                <h5>24/7 Service</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="/static/img/pizza1.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/static/img/pasta.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/static/img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="/static/img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal text-red">About Us</h5>
+                        <h1 class="mb-4"><span class="welcome">Welcome to</span>&nbsp;<span class="text-primary font-2rem text-red">SSS FAMILIA HOSPITALITY</span>
+                            <!-- <i class="fa fa-utensils text-primary me-2"></i> -->
+                        </h1>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <!-- <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Years of</p>
+                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">Popular</p>
+                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal text-red">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Items</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3 active" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary text-red"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
+                                    <h6 class="mt-n1 mb-0">Burger</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary text-red"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Pasta</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fas fa-pizza-slice fa-2x text-primary text-red"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Delicious</small>
+                                    <h6 class="mt-n1 mb-0">Pizza</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-2" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Homemade Veggie Burger</span>
+                                                <span class="text-primary text-red">204</span>   
+                                            </h5>
+                                            <small class="fst-italic">Homemade Veg Patty, Mayo, Lettuce, Tomato with a slice of delicious Cheese served with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paneer Burger</span>
+                                                <span class="text-primary text-red">247</span>
+                                            </h5>
+                                            <small class="fst-italic">Paneer Patty, Mayo, Lettuce, Red Onion with a slice of Cheese served with Fries</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Crispy Fried Chicken Burger</span>
+                                                <span class="text-primary text-red">247</span>
+                                            </h5>
+                                            <small class="fst-italic">Crispy Fried Chicken, Mayo, Lettuce, Red Onion with a slice of delicious Cheese served with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>BLT Burger</span>
+                                                <span class="text-primary text-red">382</span>
+                                            </h5>
+                                            <small class="fst-italic">Crispy Bacon, Chicken Petty, Mayo, Lettuce, Tomato with a slice of delicious Cheese served with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/spaghetti.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Penne Arrabiata</span>
+                                                <span class="text-primary text-red">349</span>
+                                            </h5>
+                                            <small class="fst-italic">Tomato sauce, Chilli, Garlic, Mix Seasonal Veggies, Basil</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veg Alfredo Pasta</span>
+                                                <span class="text-primary text-red">368</span>
+                                            </h5>
+                                            <small class="fst-italic">Penne Pasta, Alfredo sauce, Mushroom, Parmesan, Parsley</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mix Sauce Pasta</span>
+                                                <span class="text-primary text-red">387</span>
+                                            </h5>
+                                            <small class="fst-italic">Penne Pasta, Pink sauce, Mix Seasonal Veggies, Parmesan, Parsley</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Spaghetti Aglio E Olio</span>
+                                                <span class="text-primary text-red">370</span>
+                                            </h5>
+                                            <small class="fst-italic">Garlic Flakes, Chilli, Olive, Red Cherry Tomato, Parmesan, Olive Oil</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pesto Green  Pasta</span>
+                                                <span class="text-primary text-red">428</span>
+                                            </h5>
+                                            <small class="fst-italic">Homemade Pesto sause, Mix Seasonal Veggies,Parmesan, Parsley</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mac N Cheese</span>
+                                                <span class="text-primary text-red">393</span>
+                                            </h5>
+                                            <small class="fst-italic">Cheese sauce, Macaroni, Seasonal Veggies,Parmesan, Parsley</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-1" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Margherita</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Tomato sauce, Premium Mozzarella Cheese, Fresh basil</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">"7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">224</span>
+                                                <span class="fst-italic text-red price-text">364</span>
+                                                <span class="fst-italic text-red price-text">478</span>
+                                            </span>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Seasonal Farm Pizza</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Tomato sauce, Mozzarella Cheese, Mushroom, Sweet Corn, Bell Pepper</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">"7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">238</span>
+                                                <span class="fst-italic text-red price-text">364</span>
+                                                <span class="fst-italic text-red price-text">490</span>
+                                            </span>   
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veg O Familia</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Tomato sauce, Tandoori Mayo, Onion, Bell Pepper, Red Paprika, Broccoli, Paneer Tikka</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">"7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">288</span>
+                                                <span class="fst-italic text-red price-text">364</span>
+                                                <span class="fst-italic text-red price-text">709</span>
+                                            </span>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veg Spicy Loved One</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Spicy sauce, Premium Mozzarella Cheese, Jalapeno, Onion, Olive, Red Paprika</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">"7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">224</span>
+                                                <span class="fst-italic text-red price-text">363</span>
+                                                <span class="fst-italic text-red price-text">486</span>
+                                            </span>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paneer Tikka Masala</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Tomato sauce, Tandoori Mayo, Mozzarella Cheese, Onion, Penner Tikka with Minty Mayo</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">274</span>
+                                                <span class="fst-italic text-red price-text">449</span>
+                                                <span class="fst-italic text-red price-text">652</span>
+                                            </span>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/static/img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veg Pesto Green Pizza</span>
+                                                <!-- <span class="text-primary text-red">215</span> -->
+                                            </h5>
+                                            <small class="fst-italic">Homemade Bechamel Pesto sauce, Cheese, Onion, Bell Pepper, Paneer</small>
+                                            <span class="fst-italic mt-2 d-flex justify-content-between size">Sizes:
+                                                <span class="fst-italic">"7"</span>
+                                                <span class="fst-italic">"10"</span>
+                                                <span class="fst-italic">"13"</span>
+                                            </span>
+                                            <span class="fst-italic d-flex justify-content-between price">Price:
+                                                <span class="fst-italic text-red price-text">269</span>
+                                                <span class="fst-italic text-red price-text">416</span>
+                                                <span class="fst-italic text-red price-text">565</span>
+                                            </span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal text-red">Testimonial</h5>
+                    <h1 class="mb-5">Our Clients Say!!!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3 text-red"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/static/img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3 text-red"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/static/img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3 text-red"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/static/img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3 text-red"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/static/img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+        
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top btn-red"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    {% include 'footer.html' %}
+
+    {% endblock %}
+
+   
